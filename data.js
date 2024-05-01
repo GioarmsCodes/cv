@@ -1,51 +1,35 @@
 export const bio = [
-    "Hello there, This is Vinay Somawat.",
-    `Experienced Frontend Software Engineer with a strong track record of successfully upgrading applications, optimizing performance, and delivering innovative solutions.`,
-    `Eager to apply my technical expertise and in-depth
-    product understanding to drive impactful contributions and exceed expectations in challenging projects.`,
-    "Thanks for taking the time to learn a little about me!",
+    "I'm a student at the University of Milan passionate about software development and computer engineering. Proficient in Golang, Java, Python, Assembly, Arduino and C, I thrive on exploring algorithms, operations research, and software engineering. Currently, I'm delving into my thesis on data physicalization for transparency, believing strongly in open source and data transparency. I'm eager to apply my passion and skills to exciting and innovative projects.",
 ];
 
 export const skills = [
     {
         title: "Languages",
-        skillName: "JavaScript, TypeScript",
+        skillName: "Golang, C, Python, Java, Assembly",
         color: "1",
         percentage: "80",
     },
     {
-        title: "Frameworks/Libraries",
-        skillName: "Angular, RxJS, NGXS",
-        color: "6",
-        percentage: "70",
-    },
-    {
         title: "Design",
-        skillName: "HTML, Bootstrap, Tailwind",
+        skillName: "HTML, Bootstrap",
         color: "4",
         percentage: "70",
     },
     {
         title: "Version Control",
-        skillName: "GitHub, JIRA, Bitbucket",
+        skillName: "Git",
         color: "7",
-        percentage: "70",
-    },
-    {
-        title: "Tools",
-        skillName: "Postman, Chrome DevTools",
-        color: "3",
-        percentage: "80",
+        percentage: "90",
     },
     {
         title: "Analytics",
-        skillName: "CleverTap, Countly",
+        skillName: "Jupyter Notebook",
         color: "5",
-        percentage: "50",
+        percentage: "70",
     },
     {
         title: "IDE",
-        skillName: "VS Code",
+        skillName: "VS Code, Vi, JetBrains",
         color: "6",
         percentage: "70",
     },
@@ -54,37 +38,13 @@ export const skills = [
 export const projects = {
     webProjects: [
         {
-            projectName: "Programming Diaries",
+            projectName: "",
             image: "images/programmingdiaries.png",
             summary:
                 "Developed a full stack blog application to provide content on techical topics across the internet with admin interface.",
             preview: "https://programmingdiaries.herokuapp.com/",
             techStack: ["Django", "SQLite", "Bootstrap", "JavaScript", "Heroku"],
-        },
-        {
-            projectName: "Find Your Bank",
-            image: "images/findyourbank.png",
-            summary:
-                "Developed a React application to render a list of banks fetched from API. Filtered the banks based on queries from localstorage, marked favorites banks.",
-            preview: "https://clever-fermi-0d5d76.netlify.app",
-            techStack: ["Reactjs", "Bootstrap", "JavaScript", "Netlify"],
-        },
-        {
-            projectName: "Web Portfolio",
-            image: "images/portfolio.png",
-            summary:
-                "Web Portfolio to showcase acadmics, skills, projects and contact details in better manner.",
-            preview: "https://github.com/vinaysomawat/Travographer-Portal",
-            techStack: ["HTML", "Bootstrap", "JavaScript"],
-        },
-        {
-            projectName: "Resume Builder",
-            image: "images/resume-builder.png",
-            summary:
-                "Browser based editor to build and download Resumes in a customizable templates.",
-            preview: "https://vinaysomawat.github.io/Resume-Builder",
-            techStack: ["HTML", "Bootstrap", "JavaScript"],
-        },
+        }
     ],
     softwareProjects: [
         {
@@ -213,9 +173,9 @@ export const experience = [
 
 export const education = [
     {
-        title: "B.Tech. in Computer Science and Engineering",
-        duration: "2016 - 2020",
-        subtitle: "National Institute of Technology, Warangal",
+        title: "Università degli studi di Milano",
+        duration: "2020 - present",
+        subtitle: "Computer science",
         details: [],
         tags: [
             "Data Structures & Algorithms",
@@ -223,16 +183,17 @@ export const education = [
             "Database Management System",
             "Computer Networks",
             "Compiler Designing",
-            "Cloud Computing",
+            "OOP",
+            "Software engeneering"
         ],
         icon: "graduation-cap",
     },
     {
-        title: "Class 12th in Science and Mathematics",
+        title: "J.C. Maxwell",
         duration: "",
-        subtitle: "Board of Secondary Education, Rajasthan",
+        subtitle: "Liceo Scientifico - Scienze applicate",
         details: [],
-        tags: ["Physics", "Chemistry", "Mathematics"],
+        tags: ["Physics", "Chemistry", "Mathematics", "Phylosophy"],
         icon: "book",
     },
 ];
@@ -242,16 +203,12 @@ export const footer = [
         label: "Dev Profiles",
         data: [
             {
-                text: "Stackoverflow",
-                link: "https://stackoverflow.com/users/8461233/vinay-somawat",
-            },
-            {
                 text: "GitHub",
-                link: "https://github.com/vinaysomawat",
+                link: "https://github.com/GioarmsCodes",
             },
             {
                 text: "LeetCode",
-                link: "https://leetcode.com/somawatvinay/",
+                link: "https://leetcode.com/Gioarm/",
             },
         ],
     },
@@ -267,7 +224,7 @@ export const footer = [
                 func: "window.print()",
             },
             {
-                text: "Clone this page",
+                text: "Repo from where i forked",
                 link: "https://github.com/vinaysomawat/vinaysomawat.github.io",
             },
         ],
@@ -277,23 +234,8 @@ export const footer = [
         data: [
             {
                 text: "Linkedin",
-                link: "https://www.linkedin.com/in/vinaysomawat/",
+                link: "https://www.linkedin.com/in/armani-islam/",
             },
-            {
-                text: "Twitter",
-                link: "https://twitter.com/thesigmakid",
-            },
-            {
-                text: "Buy me a coffee",
-                link: "https://www.buymeacoffee.com/r194dME8y",
-            },
-        ],
-    },
-    {
-        label: "copyright-text",
-        data: [
-            "Made with &hearts; by Vinay Somawat.",
-            "&copy; No Copyrights. Feel free to use this template.",
         ],
     },
 ];
